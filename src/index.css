@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-01n,
+.bg-01d {
+    background-image: url("src/weather/image/clear_sky.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.bg-02n,
+.bg-02d,
+.bg-03d,
+.bg-04d,
+.bg-03n,
+.bg-04n {
+    background-image: url("src/weather/image/cloudy.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.bg-50d,
+.bg-50n {
+    background-image: url("src/weather/image/mist_foggy.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.bg-09d,
+.bg-10d,
+.bg-09n,
+.bg-10n {
+    background-image: url("src/weather/image/rainy.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.bg-13d,
+.bg-13n {
+    background-image: url("src/weather/image/snowy.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.bg-11d,
+.bg-11n {
+    background-image: url("src/weather/image/stormy.jpg");
+    background-size: cover;
+    background-position: center;
+}
